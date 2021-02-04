@@ -98,9 +98,12 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  - type: git
+  	repo: https://hub.fastgit.org/imbalaomao/hexo-netlify.git
+  	branch: [master]
+	message: [Yes! A Hexo blog]
