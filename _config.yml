@@ -104,6 +104,6 @@ theme: black-blue
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   - type: git
-  	repo: https://hub.fastgit.org/imbalaomao/hexo-netlify.git
+  	repo: https://github.com/imbalaomao/hexo-netlify.git
   	branch: [master]
 	message: [Yes! A Hexo blog]
