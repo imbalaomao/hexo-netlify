@@ -7,7 +7,7 @@ title: Hexo
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: Yue_plus
 language: en
 timezone: ''
 
@@ -98,9 +98,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: black-blue
+theme: arknights
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-# deploy:
+deploy:
   - type: git
+    repo: https://github.com/imbalaomao/hexo-netlify.git
+    branch: main
